@@ -12,7 +12,7 @@
 [![Framer Motion](https://img.shields.io/badge/Framer_Motion-latest-FF0055?style=for-the-badge&logo=framer&logoColor=white)](https://www.framer.com/motion/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
-[**Live Demo**](#) · [**Report a Bug**](https://github.com/amritanshguptadev/mindmetric/issues) · [**Request a Feature**](https://github.com/amritanshguptadev/mindmetric/issues)
+[**Live **](#) · https://mindmetric001.vercel.app/
 
 </div>
 
@@ -358,7 +358,7 @@ If you are experiencing distress or symptoms that impact your daily functioning,
 
 **Amritansh Gupta**
 
-- GitHub: [@amritanshguptadev](https://github.com/amritanshguptadev)
+- GitHub: https://github.com/Umangpandey75
 
 ---
 
