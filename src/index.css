@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import "tailwindcss";
+
+/* ════════════════════════════════════════════════════════════════════════
+   TAILWIND v4 — CLASS-BASED DARK MODE
+════════════════════════════════════════════════════════════════════════ */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* ════════════════════════════════════════════════════════════════════════
+   DESIGN TOKENS  — all custom- classes generated from these
+════════════════════════════════════════════════════════════════════════ */
+@theme {
+  --color-primary:      #5B50F0;
+  --color-primaryDark:  #7C74F5;
+  --color-accent:       #8B5CF6;
+  --color-gold:         #F59E0B;
+  --color-surfaceLight: #F0EFFF;
+  --color-surfaceDark:  #07071A;
+  --color-cardLight:    #FFFFFF;
+  --color-cardDark:     #10102A;
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+/* ════════════════════════════════════════════════════════════════════════
+   BASE  — inside @layer base so Tailwind utilities still win
+════════════════════════════════════════════════════════════════════════ */
+@layer base {
+  *, *::before, *::after { box-sizing: border-box; }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+
+  body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #F0EFFF;
+    color: #111128;
+    line-height: 1.6;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    min-height: 100vh;
+  }
+
+  .dark body {
+    background-color: #07071A;
+    color: #E2E2F8;
+  }
+
+  #root {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  ::selection {
+    background: rgba(91, 80, 240, 0.15);
+    color: #5B50F0;
+  }
+
+  ::-webkit-scrollbar { width: 5px; height: 5px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: #c0bfdf; border-radius: 999px; }
+  .dark ::-webkit-scrollbar-thumb { background: #2a2a55; }
+
+  *:focus-visible {
+    outline: 2px solid #5B50F0;
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+
+  a { text-decoration: none; }
+}

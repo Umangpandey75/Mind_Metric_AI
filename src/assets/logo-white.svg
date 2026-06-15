@@ -1,0 +1,54 @@
+<svg viewBox="0 0 216 56" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4F46E5"/>
+      <stop offset="100%" stop-color="#7C3AED"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Brain icon, same as logo.svg -->
+  <g transform="translate(6, 4)">
+    <path d="M 22 48
+      C 15 48 7 43 6 35
+      C 5 29 8 25 8 21
+      C 7 17 9 13 13 13
+      C 14 10 17 8 21 11
+      C 22 8 26 8 27 11
+      C 31 8 34 10 35 13
+      C 39 13 41 17 40 21
+      C 40 25 43 29 42 35
+      C 41 43 29 48 22 48 Z"
+      fill="url(#bg)" transform="scale(0.9) translate(1,1)"/>
+
+    <path d="M 20 12 C 18 19 18 32 20 43"
+      fill="none" stroke="rgba(255,255,255,0.45)" stroke-width="1.4" stroke-linecap="round"
+      transform="scale(0.9) translate(1,1)"/>
+
+    <path d="M 8 26 C 11 21 14 20 15 25"
+      fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="1.4" stroke-linecap="round"
+      transform="scale(0.9) translate(1,1)"/>
+
+    <path d="M 36 26 C 33 21 30 20 29 25"
+      fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="1.4" stroke-linecap="round"
+      transform="scale(0.9) translate(1,1)"/>
+
+    <polyline points="8,38 13,31 18,34 25,24 34,18"
+      fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+      transform="scale(0.9) translate(1,1)"/>
+
+    <circle cx="8.1" cy="35.2" r="1.6" fill="white" transform="scale(0.9) translate(1,1)"/>
+    <circle cx="12.7" cy="28.9" r="1.6" fill="white" transform="scale(0.9) translate(1,1)"/>
+    <circle cx="17.2" cy="31.6" r="1.6" fill="white" transform="scale(0.9) translate(1,1)"/>
+    <circle cx="23.5" cy="22.6" r="1.6" fill="white" transform="scale(0.9) translate(1,1)"/>
+    <circle cx="31.6" cy="17.2" r="2.2" fill="#F59E0B" transform="scale(0.9) translate(1,1)"/>
+  </g>
+
+  <!-- Wordmark — white text for dark backgrounds -->
+  <text x="58" y="36"
+    font-family="Inter, system-ui, -apple-system, sans-serif"
+    font-weight="800"
+    font-size="23"
+    letter-spacing="-0.5">
+    <tspan fill="#A5B4FC">Mind</tspan><tspan fill="#FFFFFF">Metric</tspan>
+  </text>
+</svg>
