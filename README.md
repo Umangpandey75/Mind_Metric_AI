@@ -364,7 +364,7 @@ If you are experiencing distress or symptoms that impact your daily functioning,
 
 <div align="center">
 
-Made with ❤️ and a lot of ☕
+Made by Umang Pandey ❤️ 
 
 **MindMetric** — *"Know your mind. Own your story."*
 
