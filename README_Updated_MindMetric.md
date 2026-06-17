@@ -370,8 +370,8 @@ If you are experiencing distress or symptoms that impact your daily functioning,
 **Umang Pandey**
 
 - GitHub: https://github.com/Umangpandey75
-- LinkedIn: [Add Your LinkedIn URL]
-- Email: [Add Your Email]
+- LinkedIn: https://www.linkedin.com/in/umang-pandey-01b486273/
+- Email: umangpandey.co@gmail.com
 
 ---
 
