@@ -14,7 +14,7 @@
 
 🌐 **Live Demo:** https://mindmetric001.vercel.app/
 
-📂 **GitHub Repository:** https://github.com/Umangpandey75/mindmetric
+📂 **GitHub Repository:** [https://github.com/Umangpandey75/mindmetric](https://github.com/Umangpandey75/Mind_Metric_AI)
 
 </div>
 
@@ -101,13 +101,15 @@ Each assessment includes:
 ## 📸 Screenshots
 
 ### Home Page
-![Home](./screenshots/home.png)
+<img width="1918" height="912" alt="Screenshot 2026-06-17 161026" src="https://github.com/user-attachments/assets/d02433fd-560c-44b9-be58-45a7eecf4c6a" />
+
 
 ### Assessment Dashboard
-![Dashboard](./screenshots/dashboard.png)
+<img width="1918" height="911" alt="Screenshot 2026-06-17 161113" src="https://github.com/user-attachments/assets/e15a6a55-3c89-482e-82bb-6ca97ce365e3" />
 
 ### Results Page
-![Results](./screenshots/results.png)
+<img width="1913" height="847" alt="Screenshot 2026-06-17 161229" src="https://github.com/user-attachments/assets/ec5d878b-92f0-4a4b-b576-1bed0327cc27" />
+
 
 ---
 
